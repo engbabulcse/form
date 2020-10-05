@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url("../img/kali.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.form{
+	width: 360px;
+	height: 400px;
+	background-color: rebeccapurple;
+	border-radius: 10px;
+	border: 2px solid transparent;
+	padding: 15px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	
+}
+
+h2{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding-bottom: 10px;
+}
+input{
+	padding: 10px;
+}
+
+.user{
+	width: 290px;
+	height: 30px;
+	margin: auto;
+	border: 1px solid #DDDFE2;
+	margin-left: 20px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	background-color: antiquewhite;
+	box-shadow: 1px 3px 20px 1px #6600FF
+}
+.login{
+	width: 80%;
+	height: 50px;
+	color: white;
+	background: linear-gradient(#99FF33, #6600FF);
+	border-radius: 20px;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0px;
+	border: none;
+	margin-bottom: 15px;
+	margin-left: 35px;
+	cursor: pointer;
+	box-shadow: 1px 3px 20px 1px#6600FF;
+	
+}
+
+.text{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.text a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+.text a:hover{
+	background-color:magenta;
+}
+hr{
+	height: 5px;
+	background-color: bisque
+}
+
+
+
+
+
